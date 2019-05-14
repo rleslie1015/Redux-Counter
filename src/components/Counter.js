@@ -20,21 +20,21 @@ class Counter extends Component {
         return (
             <div className="app">
                 <h1>Leslie's Redux Counter App</h1>
-                <p>Clicked: {this.props.count} times</p>
+                <div className="counter"><h3>Clicked: {this.props.count} times</h3></div>
                 <div className="buttons">
                     <button onClick={() => { this.props.increment() }}>
-                        +
+                        +1
                     </button>
                     <button onClick={() => { this.props.decrement() }}>
-                        -
+                        -1
                     </button>
                     {/* Uncomment these button tags if you got
                     around to implementing the extra credit functions */}
                     <button onClick={this.incrementIfOdd}>
-                        Increment if odd
+                        Add 1 (if odd)
                     </button>
                     <button onClick={this.incrementAsync}>
-                        Increment async
+                        (Wait 1 second) Add 1
                     </button> 
                 </div>
             </div>
