@@ -1,0 +1,20 @@
+.app {
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkgrey;
+    background: darkslategrey;
+}
+.buttons {
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkgrey;
+    background: darkslategrey;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    padding: 20px;
+    margin: 10px 0;
+}
