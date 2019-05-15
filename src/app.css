@@ -1,0 +1,39 @@
+body {
+    background: slategrey;
+}
+.app {
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkslategrey;
+}
+.buttons {
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkgrey;
+    background: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    max-width: 800px;
+    justify-content: space-between;
+    /* width: 16%; */
+    height: auto;
+}
+button {
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 12px;
+    color: darkblue;
+}
+button:hover {
+    color: darkgray;
+}
+.counter {
+        /* border: 20px solid slategrey; */
+        padding: 17%;
+        margin: 5% 0;
+        background: darkslategrey;
+        color: lightslategrey;
+}
